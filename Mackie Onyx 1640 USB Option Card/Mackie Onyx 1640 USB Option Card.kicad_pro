@@ -617,6 +617,14 @@
     [
       "114e7a8f-1ffc-4e4a-996f-c24f2cb4b78c",
       "Connector"
+    ],
+    [
+      "c77f34fa-6c97-4cbe-b773-86889ddd278d",
+      "USB Connector"
+    ],
+    [
+      "57e3fb0c-f90d-4890-a828-ac3cc200a545",
+      "Power Managment"
     ]
   ],
   "text_variables": {}
