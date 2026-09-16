@@ -1173,7 +1173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.062 111.76 90)
 			(effects
 				(font
@@ -1225,7 +1225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e1b510f-d7ac-40df-a020-b7bb556053b3")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -1241,7 +1241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_B_Lumberg_2411_02_Horizontal"
 			(at 88.9 111.76 0)
 			(effects
 				(font
@@ -1286,7 +1286,7 @@
 		(instances
 			(project "Mackie Onyx 1640 USB Option Card"
 				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/c77f34fa-6c97-4cbe-b773-86889ddd278d"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1320,7 +1320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 108.9152 115.57 0)
 			(effects
 				(font
@@ -1520,7 +1520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 123.19 107.188 90)
 			(effects
 				(font
@@ -1590,7 +1590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 131.318 111.76 90)
 			(effects
 				(font
