@@ -429,6 +429,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+15V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+15V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+15V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+15V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+15V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers
@@ -674,6 +799,107 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:-15V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-15V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-15V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-15V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-15V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -1057,10 +1283,10 @@
 		(uuid "13a37ce5-a106-4671-a89c-4e6e749ea6f3")
 	)
 	(junction
-		(at 132.08 74.93)
+		(at 67.31 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1a9050f1-277e-4afe-91ad-e4a2303e1326")
+		(uuid "19d9bec0-1566-4e3e-bb41-8c3d404128f9")
 	)
 	(junction
 		(at 124.46 104.14)
@@ -1093,10 +1319,28 @@
 		(uuid "62f52d10-09e2-4c27-950b-d0bbcbd87c35")
 	)
 	(junction
+		(at 67.31 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "698491b5-7fd1-4a56-996b-7d9cfb5f4a24")
+	)
+	(junction
+		(at 132.08 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c1e0131-87c3-48fa-a0dc-a3f4f56f0478")
+	)
+	(junction
 		(at 36.83 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70ae457e-028a-428e-8626-924de0026e6a")
+	)
+	(junction
+		(at 67.31 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f4ff614-1394-4849-9873-6d66b3e7a505")
 	)
 	(junction
 		(at 60.96 82.55)
@@ -1141,12 +1385,6 @@
 		(uuid "c0c628ea-0ff2-4147-af7d-9f84c734f707")
 	)
 	(junction
-		(at 132.08 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5c11344-b52b-43f9-beca-141de3fed02a")
-	)
-	(junction
 		(at 60.96 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1181,6 +1419,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebb93504-f0f1-4e4f-8c9f-4807c963c6c8")
+	)
+	(junction
+		(at 132.08 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "febaf397-a041-4f7f-a7cb-9d98d41a6e80")
 	)
 	(wire
 		(pts
@@ -1274,6 +1518,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 27.94) (xy 67.31 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ece2b8a-e054-4869-80db-7e2f1b8605c0")
+	)
+	(wire
+		(pts
 			(xy 124.46 110.49) (xy 124.46 115.57)
 		)
 		(stroke
@@ -1301,6 +1555,26 @@
 			(type default)
 		)
 		(uuid "7c8270b3-91dc-412f-a564-4ba8294bd498")
+	)
+	(wire
+		(pts
+			(xy 67.31 35.56) (xy 67.31 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841eb2c6-2acc-4c7d-bf37-2589f3b50c79")
+	)
+	(wire
+		(pts
+			(xy 71.12 45.72) (xy 67.31 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8901d2d2-5884-4c62-8bc9-86e094a37035")
 	)
 	(wire
 		(pts
@@ -1381,6 +1655,16 @@
 			(type default)
 		)
 		(uuid "cf8303c2-bd86-4530-891f-6c1e2308adcb")
+	)
+	(wire
+		(pts
+			(xy 67.31 38.1) (xy 67.31 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63f4f8c-9e1a-405b-ba5b-50282f3e036f")
 	)
 	(wire
 		(pts
@@ -1609,6 +1893,28 @@
 		(uuid "31b21f5b-4ec5-4532-bba6-0dc499c620aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.4671 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAL_V-"
+		(shape input)
+		(at 71.12 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4283820c-f369-4dcf-b90b-2dc1c287644c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.1205 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,6 +2182,28 @@
 		(uuid "bb329a58-ab59-4aa8-9bb2-9398077ec63c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 53.4223 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAL_V+"
+		(shape input)
+		(at 71.12 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c21f6e8b-0c85-4727-b69c-24880746a73f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.1205 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,6 +2499,76 @@
 			(project "Mackie Onyx 1640 USB Option Card"
 				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 67.31 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1280c12d-afd6-4687-9b53-14a4657d416c")
+		(property "Reference" "C53"
+			(at 71.12 39.7509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uC_Polarized"
+			(at 71.12 42.2909 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+			(at 68.2752 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 67.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b1a5f22-e7a4-4a8c-b92c-191b06a7bed5")
+		)
+		(pin "2"
+			(uuid "f3c1a444-a1e7-4c12-9992-784b780b933e")
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -2917,6 +3315,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+15V")
+		(at 67.31 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d43ce50-319c-4e9a-89bf-40fed8b060f9")
+		(property "Reference" "#PWR073"
+			(at 67.31 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 67.31 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "882d7fe2-278c-4bf4-960a-4a84a02d163a")
+		)
+		(instances
+			(project ""
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 74.93 186.69 0)
 		(unit 1)
@@ -3051,6 +3515,140 @@
 			(project "Mackie Onyx 1640 USB Option Card"
 				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 67.31 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30aa5277-051e-405b-9194-3efc3a5dd64b")
+		(property "Reference" "#PWR074"
+			(at 67.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 67.31 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27fd6f1f-80fd-4a09-9b20-7a42b3aef916")
+		)
+		(instances
+			(project ""
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33d102bf-bd54-4e08-9918-bb99e524f934")
+		(property "Reference" "C26"
+			(at 128.27 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uC"
+			(at 128.27 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 132.08 85.3948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "591d4533-b7d6-4b1c-a649-d1cac198a7fa")
+		)
+		(pin "2"
+			(uuid "eafc28b1-3b4e-41a5-9835-a3299ef52e8d")
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -3824,7 +4422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 39.0652 41.91 0)
 			(effects
 				(font
@@ -4206,73 +4804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 128.27 74.93 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7aac2842-aa41-46cf-be0f-5da0d810cf93")
-		(property "Reference" "C27"
-			(at 129.159 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uC_Polarized"
-			(at 129.159 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 124.46 75.8952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff8d424e-4ef4-40b4-a337-045130d29190")
-		)
-		(pin "2"
-			(uuid "0096c836-9d61-4727-bf9f-ba5c7fb4bc05")
-		)
-		(instances
-			(project "Mackie Onyx 1640 USB Option Card"
-				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 128.27 115.57 90)
 		(unit 1)
@@ -4340,141 +4871,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 128.27 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80e8c48c-fe18-4bb1-b14f-7acb1e3bd066")
-		(property "Reference" "C26"
-			(at 129.159 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uC_Polarized"
-			(at 129.159 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 124.46 87.3252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 128.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a59940d0-f67f-4fad-ae6d-f2702dc47f51")
-		)
-		(pin "2"
-			(uuid "4f78ac22-47d2-4e38-b5fb-7d5f8c9d8fd9")
-		)
-		(instances
-			(project "Mackie Onyx 1640 USB Option Card"
-				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 128.27 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82832d31-84c1-4ad5-90c8-aba84415ba3b")
-		(property "Reference" "C16"
-			(at 129.159 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uC_Polarized"
-			(at 129.159 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 124.46 111.4552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 128.27 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4762c07a-f7e4-4d8e-819c-7ef289f38987")
-		)
-		(pin "2"
-			(uuid "ae89c891-f427-47e3-87d9-7a9d7c380474")
-		)
-		(instances
-			(project "Mackie Onyx 1640 USB Option Card"
-				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 38.1 41.91 0)
 		(unit 1)
@@ -4535,74 +4931,6 @@
 			(project "Mackie Onyx 1640 USB Option Card"
 				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 128.27 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a5d97fa-ef5d-4732-acef-267b7445dd3f")
-		(property "Reference" "C30"
-			(at 129.159 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uC_Polarized"
-			(at 129.159 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 124.46 100.0252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 128.27 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55a62fa8-91ec-48d4-bb49-777a86229178")
-		)
-		(pin "2"
-			(uuid "90307b17-71b1-43d6-ab0d-e376f88eb6ee")
-		)
-		(instances
-			(project "Mackie Onyx 1640 USB Option Card"
-				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
-					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -4735,6 +5063,76 @@
 			(project "Mackie Onyx 1640 USB Option Card"
 				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 67.31 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "909ebf37-236f-4251-bf38-a396b4f1352e")
+		(property "Reference" "C52"
+			(at 71.12 29.5909 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uC_Polarized"
+			(at 71.12 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+			(at 68.2752 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 67.31 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "153d4914-8deb-425c-9013-f9628e2cdde4")
+		)
+		(pin "2"
+			(uuid "d066c371-99f7-46d5-b3f2-b05ecac8e3d4")
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -5001,6 +5399,73 @@
 			(project "Mackie Onyx 1640 USB Option Card"
 				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9690d57f-d3c7-4d2a-8672-df4cdfa5315d")
+		(property "Reference" "#PWR072"
+			(at 60.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11667e91-8c58-459a-9844-afbdc9ed6b37")
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -6821,6 +7286,142 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 128.27 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9bc9529-4b6e-4868-bf35-e87f3376874d")
+		(property "Reference" "C30"
+			(at 128.27 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uC"
+			(at 128.27 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 132.08 109.5248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a52df104-2b29-42b4-8f84-98c5b459a182")
+		)
+		(pin "2"
+			(uuid "450acb32-4fbf-4bbe-ae0f-9d3dd405cc4c")
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea587aba-90bc-4d60-b129-a49d79b4f176")
+		(property "Reference" "C27"
+			(at 128.27 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uC"
+			(at 128.27 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 132.08 98.0948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c35efab7-f793-4ad3-aa32-9ce0f02de64a")
+		)
+		(pin "2"
+			(uuid "a395043d-e669-474c-a0a8-6ae02412e63f")
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 36.83 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6884,6 +7485,74 @@
 			(project "Mackie Onyx 1640 USB Option Card"
 				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eee96c6a-337e-462c-b488-2929e5fd44e4")
+		(property "Reference" "C16"
+			(at 128.27 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uC"
+			(at 128.27 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 132.08 73.9648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d4940cb-efa6-4634-bcb9-ffc228a005e9")
+		)
+		(pin "2"
+			(uuid "b1c009e5-aefa-4a55-8363-fbfd4133f281")
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/57e3fb0c-f90d-4890-a828-ac3cc200a545"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7116,7 +7785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 25.0952 41.91 0)
 			(effects
 				(font

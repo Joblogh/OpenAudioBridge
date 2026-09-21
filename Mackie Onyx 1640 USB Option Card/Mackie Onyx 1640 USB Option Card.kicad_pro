@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -643,6 +643,14 @@
     [
       "25a48192-8a17-4cf4-bf53-19ead4bcde67",
       "ADC"
+    ],
+    [
+      "09a94542-c18a-4b3b-8cfe-3914f642650e",
+      "2CH_electronic-balancer-1"
+    ],
+    [
+      "06cbe1a5-ef56-4777-93be-74e627cd1b37",
+      "2CH_electronic-balancer-2"
     ]
   ],
   "text_variables": {}
